@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Protest Guerrilla';
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    background-image: url(halteres-no-chao-de-uma-academia-ai-generative.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+#local_caixa_texto {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 500px;
+    height: 500px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#local_caixa_texto input{
+    width: 350px;
+    height: 70px;
+    font-size: 40px;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(71, 70, 70);
+    color: white;
+    margin: 10px 0;
+    width: 355px;
+    height: 70px;
+    font-size: 50px;
+}
+
+@media(max-width: 800px){
+    h1{
+        font-size: 35px;
+    }
+
+    #local_caixa_texto {
+        width: 300px;
+        height: 350px;
+        font-size: 25px
+    }
+    #local_caixa_texto input{
+         width: 200px;
+         height: 40px;
+         font-size: 20px;      
+    }
+    button {
+        width: 205px;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
