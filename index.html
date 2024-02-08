@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora do IMC</title>
+    <link rel="stylesheet" href="./src/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <main>
+        <h1>Calculadora de IMC</h1>
+        <div id="local_caixa_texto"> 
+            <p>Digite seu peso:</p>
+            <input type="text" name="CPF" id="caixa_peso" placeholder="Peso">
+            <p>Digite sua altura:</p>
+            <input type="text" name="CPF" id="caixa_altura" placeholder="Altura">
+            <button onclick="verificar()">Verificar</button>
+            <p id="saida">Verificando...</p>
+        </div>
+    </main>
+    <script src="./src/script/script.js"></script>
+</body>
+</html>
