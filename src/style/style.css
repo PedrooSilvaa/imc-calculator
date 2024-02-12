@@ -53,7 +53,7 @@ button {
     }
 
     #local_caixa_texto {
-        width: 300px;
+        width: 250px;
         height: 350px;
         font-size: 25px
     }
@@ -63,8 +63,11 @@ button {
          font-size: 20px;      
     }
     button {
-        width: 205px;
+        width: 150px;
+        height: 40px;
+        font-size: 30px;
     }
 }
+
 
 @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
